@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header_area {
+  width: 100%;
+  background-color: #34495e;
+  padding: 10px 0;
+}
+
+.menu_area {
+  width: 60%;
+  justify-content: right;
+
+
+}
+.menu_area ul {
+  list-style: none;
+  
+}
+.menu_area ul li {
+  display: inline-block;
+  margin: 10px 30px;
+}
+.menu_area ul li a {
+  text-decoration: none;
+  padding: 5px 15px;
+  color: #2a2f30;
+  background-color: #ecf0f1;
+  border-radius: 5px;
+}
+.menu_area ul li a:hover {
+  background-color: #5c6c77;
+  color: #ffffff;
+  transition: 1s;
+}
+.main_area {
+  width: 100%;
+  min-height: 500px;
+  background-image: url('images/mainfood.jpg');
+  padding: 15px 0;
+}
+.main_area .left {
+  width: 50%;
+  margin-left: 40px;
+  min-height: 400px;
+  background-color: #2a2f3062;
+  color: #ffffff;
+  padding: 15px 20px;
+  border-radius: 15px;
+}
+.main_area .left h1 {
+  font-size: 50px;
+}
+.main_area .left p {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.main_area .left a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #2c3e50;
+  padding: 8px 20px;
+  border-radius: 10px;
+}
+.main_area .left a:hover {
+  background-color: #bdc3c7;
+  color: #000000;
+  transition: 1s;
+}
+
+.second_area {
+  width: 100%;
+  background-color: #49444436;
+  margin-top: 20px;
+}
+.second_area .top_side {
+  width: 90%;
+  height: 300px;
+  margin: auto;
+  display: block;
+}
+.second_area .bottom_side {
+  width: 90%;
+  margin: auto;
+  height: 300px;
+  display: block;
+}
+
+.second_area .top_side .left_image {
+  width: 30%;
+  height: 300px;
+  float: left;
+  margin-right: 10px;
+}
+.second_area .top_side .left_image img {
+  width: 100%;
+  height: 300px;
+}
+
+.second_area .top_side .middle_image {
+  width: 30%;
+  height: 300px;
+  float: left;
+  margin-right: 10px;
+}
+.second_area .top_side .middle_image img {
+  width: 100%;
+  height: 300px;
+}
+.second_area .top_side .right_image {
+  width: 30%;
+  height: 300px;
+  float: left;
+}
+.second_area .top_side .right_image img {
+  width: 100%;
+  height: 300px;
+}
+
+
+.second_area .bottom_side .bottom_left_image {
+  width: 30%;
+  height: 300px;
+  float: left;
+  margin-right: 10px;
+}
+.second_area .bottom_side .bottom_left_image img {
+  width: 100%;
+  height: 300px;
+}
+
+.second_area .bottom_side .bottom_middle_image {
+  width: 30%;
+  height: 300px;
+  float: left;
+  margin-right: 10px;
+}
+.second_area .bottom_side .bottom_middle_image img {
+  width: 100%;
+  height: 300px;
+}
+.second_area .bottom_side .bottom_right_image {
+  width: 30%;
+  height: 300px;
+  float: left;
+}
+.second_area .bottom_side .bottom_right_image img {
+  width: 100%;
+  height: 300px;
+}
+
+.third_area {
+  background-color: #bdc3c7;
+  width: 100%;
+  height: 350px;
+}
+.third_area .food_menu {
+  width: 40%;
+  height: 320px;
+  float: left;
+  margin-left: 100px;
+  background-color: #859199;
+  padding: 5px 10px;
+  border-right: 15px solid #34495e;
+  border-radius: 15px;
+}
+.third_area .submit_area {
+  width: 38%;
+  height: 320px;
+  float: right;
+  overflow: hidden;
+  margin-right: 100px;
+  background-color: #859199;
+  padding: 5px 10px;
+  border-left: 15px solid #34495e;
+  border-radius: 15px;
+  
+}
+.food_menu h2 {
+  font-size: 30px;
+}
+.food_menu ul {
+  list-style: none;
+  margin-top: 10px;
+}
+.food_menu ul li {
+  font-size: 25px;
+}
+.submit_area h1{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.submit_area form {
+  display: block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.submit_area form input {
+  font-size: 15px;
+  margin: 5px 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 150px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #586168;
+}
+.submit_area form .submit {
+  text-align: center;
+  align-items: center;
+  background-color: #000000;
+  color: #ffffff;
+  justify-content: center;
+  align-content: center;
+}
+.footer_area {
+  height: 50px;
+}
+.footer_area p {
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+}
