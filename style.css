@@ -38,17 +38,19 @@
 .main_area {
   width: 100%;
   min-height: 500px;
-  background-image: url('images/mainfood.jpg');
+  background-color: #999999;
   padding: 15px 0;
 }
 .main_area .left {
   width: 50%;
   margin-left: 40px;
   min-height: 400px;
-  background-color: #2a2f3062;
+  background-color: #7f818162;
   color: #ffffff;
   padding: 15px 20px;
   border-radius: 15px;
+  box-shadow: 10px 10px 10px #6f8181,
+  -10px 10px 10px #9bc2c2;
 }
 .main_area .left h1 {
   font-size: 50px;
